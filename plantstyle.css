@@ -259,10 +259,11 @@ hr {
 
   .menu-button {
     margin: 10px 0;
+    display: block;
   }
 
   .dropdown-content {
-    right: 0;
+    right: auto;
     left: 0;
     width: auto;
   }

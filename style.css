@@ -1,4 +1,3 @@
-
 /* ===============================
    Global Styles
    =============================== */
@@ -182,6 +181,189 @@ footer {
     float: none;
     display: block;
     margin: 20px auto;
+    margin-bottom: 40px;
+    width: 30%;
+  }
+
+  .dropdown-content {
+    margin: 27px 107px 0 0;
+    width: auto;
+  }
+
+  .main-box {
+    width: 95%;
+  }
+
+  hr {
+    margin-top: 10px;
+    width: 86%;
+  }
+
+  img {
+    height: auto;
+  }
+
+  .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+  }
+
+  .p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+/* ===============================
+   Dropdown Menu
+   =============================== */
+
+.menu-button {
+  position: relative;
+  display: inline-block;
+  float: right;
+  background-color: #dfdfdf;
+  color: black;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  float: right;
+  margin: -105px 32px 0 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 163px;
+  right: 17px;
+  margin: -47.5px 33px 0 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  border: 2px solid black;
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .menu-button {background-color: #AEB794;}
+
+
+/* ===============================
+   Content Cards
+   =============================== */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* adds spacing without extra margins */
+}
+
+.main-box {
+  width: 45%;
+  border: 3px solid black;
+  background-color: #dfdfdf;
+  box-shadow: 5px 5px 0.5px rgba(0, 0, 0, 1);
+  margin: 20px;
+  cursor: pointer;
+}
+
+a.main-box {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.main-box:visited {
+  background-color: #AEB794;
+}
+
+.main-box:hover {
+  background-color: #AEB794;
+  transform: translateY(-5px);
+  transition: all 0.6s ease;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-flex;
+  margin: 10px 0 -12px 15px;
+}
+
+.box-header {
+  margin: -15px 0 5px 0;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  margin-bottom: 3px;
+}
+
+.box-text {
+  display: inline-flex;
+  justify-content: center; 
+  align-items: center;
+  float: right;
+  margin: 0 25px 10px 0;
+}
+
+/* ===============================
+   Footer
+   =============================== */
+
+footer {
+  background-color: #fff;
+  text-align: left;
+  margin: 20px 30px 40px 30px;
+  font-size: 20px;
+}
+
+/* ===============================
+   Responsive Design
+   =============================== */
+
+@media (max-width: 1024px) {
+  .main-box {
+    width: 80%; /* larger on tablets */
+  }
+
+  .h1 {
+    font-size: 36px;
+  }
+
+  .p1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    float: none;
+    display: block;
+    margin: 20px auto;
   }
 
   .main-box {
@@ -201,4 +383,3 @@ footer {
     text-align: center;
     margin: 0 0 20px 0;
   }
-}

@@ -258,14 +258,13 @@ hr {
   }
 
   .menu-button {
-    width: 100%;
     margin: 10px 0;
   }
 
   .dropdown-content {
     right: 0;
     left: 0;
-    width: 100%;
+    width: auto;
   }
 }
 

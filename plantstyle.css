@@ -250,24 +250,69 @@ hr {
   }
 
   .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 32px;
   }
 
   .p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  hr {
+    margin-top: 10px;
+    width: 86%;
   }
 
   .menu-button {
-    margin: 10px 0;
-    width: 30%;
+    float: none;
     display: block;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    width: 29%;
   }
 
   .dropdown-content {
-    right: 0;
-    left: 0;
+    margin: 27px 124px 0 0;
     width: auto;
   }
+
+h2 {
+  width: 450px;
+}
+
+.top-artists {
+  margin: -90px 0 0 -5px;
+  width: 300px;
+
+}
+
+.top-songs {
+  margin: 30px 0 0 -5px;
+  width: 300px;
+}
+
+.coleus-facts {
+  margin: 30px 0 0 -5px;
+  width: 300px;
+}
+
+.bottom-content {
+  margin: -20px 0px 0 -40px;
+  width: 100px;
+}
+
+.top-genres p {
+  width: 400px;
+}
+
+.plant-species p {
+  width: 400px;
 }
 
 

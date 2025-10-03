@@ -1,7 +1,4 @@
-
-/* ===============================
-   Global Styles
-   =============================== */
+/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,9 +12,7 @@ body {
   line-height: 1.5;
 }
 
-/* ===============================
-   Header
-   =============================== */
+/* Header */
 
 .h1 {
   font-size: 42px;
@@ -36,58 +31,88 @@ hr {
   background-color: black;
 }
 
-/* ===============================
-   Dropdown Menu
-   =============================== */
+/* Dropdown Menu */
 
-.menu-button {
-  position: relative;
-  display: inline-block;
-  float: right;
-  background-color: #dfdfdf;
-  color: black;
-  font-family: inherit;
-  font-size: 18px;
-  padding: 12px 30px;
-  border: 2px solid black;
-  box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 1);
-  cursor: pointer;
-  float: right;
-  margin: -105px 32px 0 0;
-}
+.menu-button { 
+position: relative; 
+display: inline-block; 
+float: right; 
+background-color: #dfdfdf; 
+color: black; 
+font-family: inherit; 
+font-size: 18px; 
+padding: 12px 30px; 
+border: 2px solid black; 
+box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 1); 
+cursor: pointer; 
+float: right;
+margin: -105px 32px 0 0; 
+} 
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 163px;
-  right: 17px;
-  margin: -47.5px 33px 0 0;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  border: 2px solid black;
-  z-index: 1000;
-}
+.dropdown-content { 
+display: none; 
+position: absolute; 
+top: 163px; 
+right: 17px; 
+margin: -47.5px 33px 0 0; 
+background-color: #f1f1f1; 
+min-width: 160px; 
+border: 2px solid black; 
+z-index: 1000; 
+} 
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a { 
+color: black; 
+padding: 12px 16px; 
+text-decoration: none; 
+display: block; 
+} 
+
+.dropdown-content a:hover {background-color: #ddd;} 
+.dropdown:hover 
+.dropdown-content {display: block;} 
 .dropdown:hover .menu-button {background-color: #AEB794;}
 
+/* Introduction  */
 
-/* ===============================
-   Content Cards
-   =============================== */
+.intro {
+  margin: 2rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  padding: 1.5rem;
+  border-left: 4px solid #AEB794;
+  background-color: #f9faf8;
+  margin: 33px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+.welcome {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.description {
+  line-height: 28px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.intro strong {
+  color: #99A36F;
+  font-weight: 600;
+}
+
+/* Content Cards */
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* adds spacing without extra margins */
+  gap: 20px;
 }
 
 .main-box {
@@ -148,9 +173,7 @@ img {
   margin: 0 25px 10px 0;
 }
 
-/* ===============================
-   Footer
-   =============================== */
+/* Footer */
 
 footer {
   background-color: #fff;
@@ -159,13 +182,11 @@ footer {
   font-size: 20px;
 }
 
-/* ===============================
-   Responsive Design
-   =============================== */
+/* Responsive Design */
 
 @media (max-width: 1024px) {
   .main-box {
-    width: 80%; /* larger on tablets */
+    width: 80%; 
   }
 
   .h1 {

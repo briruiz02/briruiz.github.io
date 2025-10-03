@@ -205,7 +205,29 @@ hr {
   color: #333;
 }
 
-/* ===== Responsive Tweaks (Mobile) ===== */
+.persona {
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.persona-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.persona-description {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+strong {
+  color: #99A36F;
+}
+
+/* Responsive Design */
+
 @media (max-width: 1024px) {
   .hero {
     flex-wrap: wrap;
@@ -240,8 +262,6 @@ hr {
     height: auto;
   }
 }
-
-/* Responsive Design */
 
 @media (max-width: 600px) {
   body {
@@ -315,6 +335,11 @@ h2 {
   width: 400px;
 }
 
+.persona-rationale {
+  width: 500px;
+  margin-left: -27px;
+  margin-top: -45px;
+}
 
 
 

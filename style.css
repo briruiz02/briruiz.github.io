@@ -115,8 +115,17 @@ display: block;
   margin: 60px auto;
   max-width: 850px;
   min-width: 50px;
-  margin-top: 90px;
+  margin-top: 80px;
   border-radius: 40px;
+}
+
+/* Data Viz */
+
+#data-viz {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 /* Content Cards */
